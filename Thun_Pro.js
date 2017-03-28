@@ -248,6 +248,7 @@ begin: {
     text: "You reach the city as a loud BOOM echoes from the sky.",
     textcolor: "white",
     textstyle: "40px Ubuntu,sans",
+    text2: "",
     buttons: [["The PRESENT TRIAL", "advanceTo(scenario.trial1)"]]
   },
 
@@ -267,6 +268,37 @@ begin: {
     textcolor2: "red",
     textstyle2: "40px Boogaloo,sans",
     buttons: [["continue", "advanceTo(scenario.six)"]]
+  },
+
+  trial1: {
+    image: "",
+    background: "",
+    character1: "",
+    character2: "",
+    text: "You finally make your way home. Your brother is already inside waiting on \
+    you. As soon as you enter the doorway, you see Billy running around the house.",
+    textcolor: "white",
+    textstyle: "bold 50px Ubuntu,serif",
+    text2: "Mom isn't here!",
+    textcolor2: "#5533FF",
+    textstyle2: "40px Orbitron,sans",
+    buttons: [["Help Billy Search the house.", "advanceTo(scenario.b4school)"],["Grab Billy and find Mom.", "advanceTo(scenario.b4school)"]]
+  },
+
+  b4school: {
+    image: "",
+    background: "",
+    character1: "",
+    character2: "",
+    text: "You quickly search your home, but ultimately decide to go the the safest \
+    place in town, the school. As you reach Hill Valley Middle School, you see floodlights \
+    being set up by a few members of the town. As you reach the school, you manage to make out the face of your coworker.",
+    textcolor: "white",
+    textstyle: "bold 50px Ubuntu,serif",
+    text2: "",
+    textcolor2: "#5533FF",
+    textstyle2: "40px Orbitron,sans",
+    buttons: [["Continue", "advanceTo(scenario.whatever)"]]
   },
 
 };
