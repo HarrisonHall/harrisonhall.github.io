@@ -213,7 +213,8 @@ a.norm1:hover, a.norm1:active {
 
 .profilepic, #profilepic {
   border-radius: 100%;
-  width:100%;
+  width: 30%;
+  height: 30%;
 }
 
 
