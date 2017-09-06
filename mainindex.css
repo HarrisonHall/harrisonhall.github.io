@@ -51,8 +51,8 @@ table {
 
 th {
     position: center center;
-    padding-right: 0px;
-    width: auto;
+    padding-right: 5px;
+    width: 33%;
 }
 
 td {
@@ -62,6 +62,7 @@ td {
     margin: 5px;
     position: center center;
     text-align: center;
+    width: 33%;
 }
 
 h1 {
@@ -99,8 +100,7 @@ h1 {
     cursor: pointer;
     display:inline-block;
     height: 100%;
-    width: 370px;
-
+    width: 100%;
 }
 .button1 {
     background-color: #66b2ff;
