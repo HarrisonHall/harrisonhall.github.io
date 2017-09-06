@@ -11,12 +11,12 @@ Hbody {
 }
 
 .header {
-  background-image: url(https://www.xmple.com/wallpaper/grey-white-hexagon-honeycomb-beehive-1920x1080-c2-ffffff-808080-l2-10-144-a-35-f-5.svg);
+  background-image: url(http://www.goodwp.com/images/201104/goodwp.com_16941.jpg);
   background-size: cover;
   height: 300px;
   background-position: center center;
   padding-bottom: 0px;
-  border-bottom: 3px solid #003366;
+  border-bottom: 3px solid #ffffff;
 }
 
 .menu {
@@ -30,17 +30,17 @@ Hbody {
 
 table {
     border-collapse: collapse;
-    color: #000000;
+    color: #FFFFFF;
     font-family: Helvetica, Arial;
     font-size: 16px;
 
     margin: 0;
     position: center center;
     text-align: center;
-    border: 3px solid #003366;
+    border: 3px solid #ffffff;
     border-top: 0px;
     text-transform: uppercase;
-    background-color: #66b2ff;
+    background-color: #000000;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-left: auto;
@@ -63,7 +63,7 @@ td {
 }
 
 h1 {
-  color: #66b2ff;
+  color: #000000;
   font-family: Verdana, Helvetica, Arial;
   font-size: 100px;
   line-height: 100px;
@@ -72,15 +72,15 @@ h1 {
   text-align: center;
   top: 20%;
   text-shadow:
-    -3px -3px 0 #000,
-    3px -3px 0 #000,
-    -3px 3px 0 #000,
-    3px 3px 0 #000;
+    -3px -3px 0 #fff,
+    3px -3px 0 #fff,
+    -3px 3px 0 #fff,
+    3px 3px 0 #fff;
 
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #000000; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -98,14 +98,14 @@ h1 {
 
 }
 .button1 {
-    background-color: #66b2ff;
-    color: black;
+    background-color: #000000;
+    color: #ffffff;
     border: 0px solid black;
 
 }
 .button1:hover {
-    background-color: black;
-    color: white;
+    background-color: #6C0100;
+    color: #000000;
 
 
 }
@@ -113,8 +113,8 @@ h1 {
 /** List style **/
 
 h2 {
-  color: #66b2ff;
-  font-family: Helvetica, Arial;
+  color: #ffffff;
+  font-family: Ubuntu, Arial;
   font-size: 28px;
   font-weight: 500;
   text-align: left;
@@ -128,23 +128,23 @@ ul {
 }
 
 li {
-  border-bottom: 3px solid #003366;
+  border-bottom: 3px solid #6C0100;
   list-style: none;
   margin: 60px 0px;
   padding-bottom: 40px;
 }
 
 p {
-  color: #000033;
+  color: #ffffff;
   line-height: 32px;
-  font-family: sans-serif, Arial;
+  font-family: Ubuntu, Arial;
   font-size: 20px;
   font-weight: 100;
   /** position: center; ? **/
 }
 
 a {
-  color: #00066;
+  color: #ffffff;
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 900;
@@ -155,7 +155,7 @@ a {
 }
 
 h6 {
-  color: #00066;
+  color: #ffffff;
   font-family: sans-serif;
   font-size: 13px;
   line-height: 16px;
@@ -172,11 +172,11 @@ h6 {
   background-color: none;
 }
 
-.norm, .norm1 {
+.norm {
   text-decoration: none;
   background-color: none;
 }
 
-a.norm1:hover, a.norm1:active {
+a.norm:hover, a.norm:active {
      color: #6C0100;
 }
