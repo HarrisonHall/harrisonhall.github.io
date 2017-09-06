@@ -210,3 +210,11 @@ h6 {
 a.norm1:hover, a.norm1:active {
      color: #6C0100;
 }
+
+.profilepic, #profilepic {
+  border-radius: 100%;
+  
+}
+
+
+
