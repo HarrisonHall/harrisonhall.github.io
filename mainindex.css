@@ -151,7 +151,7 @@ a {
   text-decoration: none;
 }
 
-#harrison:visited, .harrison:visited {
+#harrison, .harrison, #harrison:visited, .harrison:visited, .harrison:onclick, #harrison:onclick {
   color: #FFFFFF;
   font-family: Verdana, Helvetica, Arial;
   font-size: 100px;
