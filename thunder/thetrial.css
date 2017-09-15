@@ -13,6 +13,9 @@ Hbody {
 .header {
   background-image: url(trialbackgrnd.png);
   background-size: cover;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
   height: 300px;
   background-position: center center;
   padding-bottom: 0px;
