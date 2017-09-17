@@ -52,7 +52,7 @@ table {
 th {
     position: center center;
     padding-right: 5px;
-    width: 33%;
+    width: 25%;
 }
 
 td {
@@ -62,7 +62,7 @@ td {
     margin: 5px;
     position: center center;
     text-align: center;
-    width: 33%;
+    width: 25%;
 }
 
 h1 {
