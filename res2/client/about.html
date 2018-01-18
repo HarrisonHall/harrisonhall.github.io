@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Game: The Resistance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class='navbar navbar-inverse navbar-static-top'>
+        <div class=navbar-inner>
+            <div class=container>
+                <a class=brand href='/'>The Resistance</a>
+                <ul class=nav>
+                    <li>
+                        <div class='navbar-form'>
+                            <input id=username type=text placeholder=username class=span2>
+                            <input id=password type=password placeholder=password class=span2>
+                            <button id=playButton class="btn btn-primary" type="button">Play!</button>
+                        </div>
+                    </li>            
+                    <li><a href='register.html'>Register</a></li>
+                    <li><a href='rules.html'>Rules</a></li>
+                    <li class=active><a href='#'>About</a></li>
+                    <li><a href='stats.html'>Statistics</a></li>
+                    <li><a href='https://github.com/zdsj/resistance'>GitHub</a></li>
+                    <li><a href='https://www.facebook.com/groups/1788396528083787/'>Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class=container style='padding-top:40px'>
+        <div class=row>
+            <div class='span6'>
+                <h3>About this website</h3>
+
+                <p><strong>This site is a clone (with modifications) of <a href="http://www.theresistanceonline.com/">
+                    The Resistance Online</a>.</strong></p>
+                <p><b>Site information:</b> <a href="https://docs.google.com/document/d/19QPcLEgWiERET8-ndoSaS72IroUBMkw0XwZC_xDqbSc/edit">Google Doc</a></p>
+
+
+                <p><b>Text below is from cashto on <a href="http://www.theresistanceonline.com/">
+                    The Resistance Online</a>.</b></p>
+                <p>I built this as a sort of side project to help out a group of my (geographically challenged) friends 
+                who had gotten addicted to the game and who were finding it difficult to play over Skype and email.
+                
+                <p>It also gave me an excuse to learn / play around with the following bits of technology:</p>
+                
+                <ul>
+                <li>Front end: <a href="http://jquery.com/">jQuery</a> and <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>.</li>
+                <li>Back end: <a href="http://www.microsoft.com/en-us/sqlserver/editions/2012-editions/express.aspx">MS SQL Server Express</a>, <a href="http://nodejs.org/">node.js</a>, <a href="http://coffeescript.org/">CoffeeScript</a>, and <a href="http://expressjs.com/">Express</a>.</li>
+                <li>Cloud platform: <a href="http://aws.amazon.com/">Amazon Web Services</a>.</li>
+                </ul>
+
+                <p>Direct your gripes, etc. to cashto at gmail dot com.</p>
+                
+                <h3>Changelog</h3>
+                
+                <h5>July 28th, 2013</h5>
+                
+                <ul><li>Added Basic (no cards) game type.</ul>
+
+                <h5>Feb 9th, 2014</h5>
+                
+                <ul><li>Added statistics page.</ul>
+
+                <h5>Feb 14th, 2014</h5>
+                
+                <ul>
+                <li>Added Percival, Morgana, Oberon, and Mordred.
+                <li>Resistance players are no longer allowed to fail missions.
+                <li>Server sends a message when new games are created / finished.
+                <li>Server sends a message when players enter / leave a room.
+                </ul>
+
+                <h5>Apr 9th, 2014</h5>
+                
+                <ul>
+                <li>Added Lady of the Lake.
+                <li>Oberon can be assassinated.
+                </ul>
+
+                <h5>Aug 2, 2015</h5>
+                
+                <ul>
+                <li>The Hunter Module from the <a href="https://boardgamegeek.com/boardgame/162889/resistance-hostile-intent">Hostile Intent</a> expansion has been added (thanks jykong!)
+                <li>Spectators can be muted.
+                </ul>                
+            </div>
+            <div class='span6'>
+                <img src=ss.png>
+            </div>
+        </div>
+    </div>
+    
+    <script src="lib/jquery-1.10.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
