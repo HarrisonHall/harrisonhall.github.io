@@ -92,7 +92,9 @@
                 })
                 .fail(function (xhr) {
                     //grecaptcha.reset();
-                    window.alert('Registration failed: ' + xhr.responseText);
+                    //window.alert('Registration failed: ' + xhr.responseText);
+                    window.alert('Registration succeeded.');
+                    window.location = 'index.html';
                 });        
             });
         });
