@@ -1,0 +1,45 @@
+{
+    "names": [
+        { 
+            "category": "color", 
+            "names": ["Red", "Blue", "Yellow", "Black", "White", "Green", "Orange", "Purple", "Brown", "Gray"]
+        },
+        { 
+            "category": "pokemon",
+            "names": ["Pikachu", "Eevee", "Squirtle", "Ivysaur", "Charizard", "Gengar", "Scyther", "Dragonite", "Snorlax", "Mewtwo"]
+        },
+        { 
+            "category": "anime_characters",
+            "names": ["Goku", "Luffy", "Naruto", "Mikasa", "Homura", "Doraemon", "Shinji", "Killua", "Edward", "Light"]
+        },
+        {
+            "category": "elements",
+            "names": ["Hydrogen", "Helium", "Oxygen", "Carbon", "Iron", "Nitrogen", "Chlorine", "Sulfur", "Silver", "Uranium"]
+        },
+        {
+            "category": "cities",
+            "names": ["New York", "London", "Paris", "Hong Kong", "Tokyo", "Sydney", "Jerusalem", "Moscow", "Beijing", "Singapore"]
+        },
+        {
+            "category": "league",
+            "names": ["Lucian", "Ahri", "Riven", "Rengar", "Morgana", "Ezreal", "Zed", "Graves", "Gnar", "Thresh"]
+        },
+        {
+            "category": "harry_potter",
+            "names": ["Harry", "Ron", "Hermione", "Voldemort", "Dumbledore", "Snape", "Hagrid", "Malfoy", "Neville", "Ginny", "Sirius", "Bellatrix", "Luna", "Dobby"]
+        },
+        {
+            "category": "superheroes",
+            "names": ["Captain America", "Thor", "Batman", "Spider-Man", "Super Man", "Iron Man", "The Hulk", "Wolverine", "Green Lantern", "The Flash"]
+        },
+        {
+            "category": "dani_mode",
+            "names": ["Ursa", "Ursa", "Ursa", "Ursa", "Ursa", "Ursa", "Ursa", "Ursa", "Ursa", "Luna"]
+        },
+        {
+            "category": "bits23",
+            "names": ["bits20", "bits21", "bits22", "bits23", "bits24", "bits25", "bits26", "bits27", "bits28", "bits29"]
+        }
+    ]
+
+}
