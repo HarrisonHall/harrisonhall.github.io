@@ -1,0 +1,6 @@
+{
+    "port": 8080,
+    "db_connection_string": "postgres://mypguser:mypguserpass@localhost/mypgdatabase",
+    "admin": [],
+    "mods": []
+}
