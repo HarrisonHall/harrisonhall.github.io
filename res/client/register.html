@@ -4,7 +4,7 @@
     <title>Online Game: The Resistance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
   </head>
   <body>
     <div class='navbar navbar-inverse navbar-static-top'>
@@ -83,7 +83,7 @@
                         email: $('#regemail').val(),
                         //challenge: $('#recaptcha_challenge_field').val(),
                         //response: $('#recaptcha_response_field').val()
-                        response: grecaptcha.getResponse()
+                        //response: grecaptcha.getResponse()
                     })
                 })
                 .done(function () {
@@ -91,7 +91,7 @@
                     window.location = 'index.html';
                 })
                 .fail(function (xhr) {
-                    grecaptcha.reset();
+                    //grecaptcha.reset();
                     window.alert('Registration failed: ' + xhr.responseText);
                 });        
             });
