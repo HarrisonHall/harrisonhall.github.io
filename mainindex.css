@@ -128,7 +128,7 @@ li {
 }
 
 p {
-  color: #000033;
+  color: #000000;
   line-height: 32px;
   font-family: sans-serif, Arial;
   font-size: 20px;
@@ -171,7 +171,7 @@ h6 {
 #norm:visited, #norm {
   text-decoration: none;
   background-color: none;
-  color: #343d46;
+  color: #BEBEBE;
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 900;
