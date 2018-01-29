@@ -11,13 +11,9 @@ Hbody {
 }
 
 .header {
-  /*background-image: url(https://www.xmple.com/wallpaper/grey-white-hexagon-honeycomb-beehive-1920x1080-c2-ffffff-808080-l2-10-144-a-35-f-5.svg); */
-  /*background-size: cover;*/
   background-color: #343d46;
-  /* #66b2ff */
   height: 300px;
   background-position: center center;
-
   border-bottom: 3px solid #343d46;
 }
 
@@ -75,13 +71,7 @@ h1 {
   top: 20%;
   vertical-align: middle;
   position: relative;
-/*  text-shadow:
-    -3px -3px 0 #000,
-    3px -3px 0 #000,
-    -3px 3px 0 #000,
-    3px 3px 0 #000; */
   transform: translateY(45%);
-
 }
 
 .button {
@@ -102,6 +92,7 @@ h1 {
     height: 100%;
     width: 100%;
 }
+
 .button1 {
     background-color: #66b2ff;
     color: #343d46;
@@ -111,12 +102,9 @@ h1 {
 .button1:hover {
     background-color: #343d46;
     color: white;
-
-
 }
 
 /** List style **/
-
 h2 {
   color: #66b2ff;
   font-family: Helvetica, Arial;
@@ -145,7 +133,6 @@ p {
   font-family: sans-serif, Arial;
   font-size: 20px;
   font-weight: 100;
-  /** position: center; ? **/
 }
 
 a {
@@ -155,7 +142,7 @@ a {
 
 #harrison, .harrison, #harrison:visited, .harrison:visited, .harrison:onclick, #harrison:onclick {
   color: #FFFFFF;
-  font-family: Verdana, Helvetica, Arial;
+  font-family: 'Lato', Arial;
   font-size: 100px;
   line-height: 100px;
   margin: 0;
