@@ -199,9 +199,11 @@ a.norm1:hover, a.norm1:active {
 }
 
 .profilepic, #profilepic {
-  border-radius: 100%;
+  border-radius: 50%;
   width: 15%;
   height: 15%;
+  position: center center;
+  margin: 0 auto 0 auto;
 }
 
 
