@@ -114,6 +114,18 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-weight: bold;
+  color: #66b2ff;
+  font-family: Helvetica, Arial;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul {
   margin: 0 auto;
   padding: 0;
@@ -206,5 +218,18 @@ a.norm1:hover, a.norm1:active {
   margin: 0 auto 0 auto;
 }
 
+.wideimage {
+	border-radius: 3%;
+	position: center;
+	width: 100%;
+	height: auto;
+}
 
-
+.smallimage {
+	height: auto;
+	/*set width yourself*/
+	position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
