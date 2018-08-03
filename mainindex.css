@@ -140,11 +140,15 @@ li {
 }
 
 p {
-  color: #000000;
-  line-height: 32px;
-  font-family: sans-serif, Arial;
-  font-size: 20px;
-  font-weight: 100;
+	color: #000000;
+	line-height: 32px;
+	font-family: sans-serif, Arial;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.pcenter {
+	text-align: center;
 }
 
 a {
@@ -164,8 +168,6 @@ a {
   position: relative;
   text-decoration: none;
 }
-
-
 
 h6 {
   color: #00066;
@@ -210,12 +212,31 @@ a.norm1:hover, a.norm1:active {
      color: #6C0100;
 }
 
+.normcenter, .normcenter:visited {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background-color: none;
+	color: #343d46;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
 .profilepic, #profilepic {
   border-radius: 50%;
-  width: 15%;
-  height: 15%;
+  width: 15vw;
+  height: auto;
   position: center center;
-  margin: 0 auto 0 auto;
+  /*margin: 0 auto 0 auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .wideimage {
