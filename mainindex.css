@@ -75,7 +75,7 @@ table {
     display: block;
     border-collapse: collapse;
     color: var(--linkcolor);
-    font-family: Helvetica, Arial;
+    font-family: 'Ubuntu',Helvetica, Arial;	
     font-size: 16px;
     border-radius: 6px;
     margin: 0;
@@ -86,7 +86,7 @@ table {
     background-color: var(--maincolor);
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: var(--menuheight);
+    margin-top: var(--menuheight);	
     margin-left: 19vw;
     margin-right: 20vw;
 }
@@ -109,7 +109,7 @@ th {
 
 td {
     position: center center;
-    font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
     font-size: 16px;
     margin: 5px;
     position: center center;
@@ -163,7 +163,7 @@ h1 {
 /** List style **/
 h2 {
 	color: var(--maincolor);
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 28px;
 	font-weight: 500;
 	text-align: left;
@@ -173,7 +173,7 @@ h2 {
 h3 {
 	font-weight: bold;
 	color: var(--maincolor);
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 28px;
 	text-align: center;
 	text-transform: uppercase;
@@ -199,7 +199,7 @@ ul {
 p {
 	color: var(--secondarycolor);
 	line-height: 32px;
-	font-family: sans-serif, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 20px;
 	font-weight: 100;
 }
@@ -215,7 +215,7 @@ a {
 
 #harrison, .harrison, #harrison:visited, .harrison:visited, .harrison:onclick, #harrison:onclick {
   	color: var(--nameandbutton);
-  	font-family: 'Lato', Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
   	font-size: 100px;
   	line-height: 100px;
   	margin: 0;
@@ -227,7 +227,7 @@ a {
 }
 
 h6 {
-	font-family: sans-serif;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 13px;
 	line-height: 16px;
 	font-weight: 900;
@@ -241,7 +241,7 @@ h6 {
 #norm:visited, #norm {
 	text-decoration: none;
 	background-color: none;
-	font-family: sans-serif;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 13px;
 	font-weight: 900;
 	text-align: left;
@@ -254,7 +254,7 @@ h6 {
 	text-decoration: none;
 	background-color: none;
 	color: var(--linkcolor);
-	font-family: sans-serif;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 13px;
 	font-weight: 900;
 	text-align: left;
@@ -271,7 +271,7 @@ h6 {
 	text-decoration: none;
 	background-color: none;
 	color: var(--linkcolor);
-	font-family: sans-serif;
+	font-family: 'Ubuntu',Helvetica, Arial;
 	font-size: 13px;
 	font-weight: 900;
 	text-transform: uppercase;
