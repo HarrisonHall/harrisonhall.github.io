@@ -6,13 +6,13 @@
 .mainsection {
 	color: var(--secondarycolor);
 	text-align: center;
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 }
 
 .infotext {
 	color: var(--secondarycolor);
 	text-align: center;
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 }
 
 .secondsection {
@@ -20,7 +20,7 @@
 	font-size: 25px;
 	color: var(--maincolor);
 	padding-left: 15%;
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 }
 
 .bulletpoint {
@@ -30,7 +30,7 @@
 	padding-left: 10%;
 	list-style: square;
 	border-bottom: none;
-	font-family: Helvetica, Arial;
+	font-family: 'Ubuntu',Helvetica, Arial;
 }
 
 .bulletpoint.a {
