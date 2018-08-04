@@ -1,0 +1,43 @@
+:root {
+
+
+}
+
+.mainsection {
+	color: var(--secondarycolor);
+	text-align: center;
+}
+
+.infotext {
+	color: var(--secondarycolor);
+	text-align: center;
+}
+
+.secondsection {
+	text-align: left;
+	font-size: 25px;
+	color: var(--maincolor);
+	padding-left: 15%;
+}
+
+.bulletpoint {
+	width: 70%;
+	font-size: 20px;
+	color: var(--secondarycolor);
+	padding-left: 10%;
+	list-style: square;
+	border-bottom: none;
+}
+
+.bulletpoint.a {
+	list-style-type: square;
+}
+
+.bulletpoint.b {
+
+}
+
+hr {
+	color: var(--secondarycolor);
+	color: black;
+}
