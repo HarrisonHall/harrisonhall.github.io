@@ -20,7 +20,7 @@
 	--secondarycolor: #0D0F29;
 	--nameandbutton: #ACC2DB;
 	--linkcolor: #0D0F29;
-	--background: #e8f1ff; /*ACC2DB*/
+	--background: #F0FDFF; /*ACC2DB*/
 	/**/
 
 	/*Dappled Macaroon
@@ -194,6 +194,15 @@ ul {
 	margin: 0px 0px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.mainlilong {
+	border-bottom: 3px solid var(--secondarycolor);
+	list-style: none;
+	margin: 0px 0px;
+	padding-top: 40px;
+        margin-bottom: 100px;
+	padding-bottom: 100px;
 }
 
 p {
