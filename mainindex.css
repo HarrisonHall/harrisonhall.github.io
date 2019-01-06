@@ -15,13 +15,20 @@
 	--maincolor: #2c3e50;
 	/**/
 
-	/*New Scheme 2*/
+	/*New Scheme 2
 	--maincolor: #3D699A;
 	--secondarycolor: #0D0F29;
 	--nameandbutton: #ACC2DB;
 	--linkcolor: #0D0F29;
 	--background: #F0FDFF; /*ACC2DB*/
-	/**/
+    /**/
+        /*Gray Scheme*/
+    	--maincolor: #8C8C8C;
+	--secondarycolor: #24292E;
+	--nameandbutton: #8C8C8C;
+	--linkcolor: #000000;
+	--background: #FFFFFF;
+        /**/
 
 	/*Dappled Macaroon
 	--maincolor: #e8b3a4;
