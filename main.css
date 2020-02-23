@@ -53,3 +53,33 @@ footer {
     font-size: 1em;
 }
 
+.navbar-expand-lg, .nav-link, .navbar-brand {
+    background-color: #444862;
+    color: #ffffff;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: #cccccc;
+}
+
+.btn, .badge {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+.btn-primary, .badge-primary {
+    background-color: #61a3b1;
+    border-color: #61a3b1;
+}
+
+.badge-danger {
+    background-color: #b23b3b;
+    border-color: #b23b3b;
+}
+
+.btn-primary:hover {
+    background-color: #45747e;
+    border-color: #45747e;
+}
+
