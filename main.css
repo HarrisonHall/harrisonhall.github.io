@@ -1,6 +1,4 @@
-
-
-
+/* CSS for harrisonchristianhall.com */
 
 body {
     background-color: #333333;
@@ -8,6 +6,10 @@ body {
     justify-content: center;
     -ms-flex-pack: center;
     -webkit-box-pack: center;
+}
+
+footer {
+    background-color: #666666;
 }
 
 .card-body {
@@ -28,8 +30,13 @@ body {
 
 .jumbotron {
     background-color: #474747;
+    border-radius: 0%;
 }
 
 .text-muted {
     color: #cccccc;
+}
+
+#work {
+    background-color: #5b5b5b;
 }
