@@ -17,7 +17,6 @@ footer {
 }
 
 .card {
-    background-color: #474747;
     background-color: #707070;
 }
 
@@ -37,6 +36,20 @@ footer {
     color: #cccccc;
 }
 
-#work {
+#work, #resume {
     background-color: #5b5b5b;
 }
+
+.list-group-item {
+    background-color: #707070;
+}
+
+.card-header {
+    background-color: #666666;
+    font-size: 1.5em;
+}
+
+.badge {
+    font-size: 0.9em;
+}
+
