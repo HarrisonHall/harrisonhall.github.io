@@ -2,11 +2,11 @@
 <html>
   <head>
     <title>Harrison Hall</title>
-      <link rel="icon" href="blog_spr.png">
+    <link rel="icon" href="blog_spr.png">
     <link href="https://fonts.googleapis.com/css?family=Lato|Limelight|Lobster|Monoton|Neuton|Orbitron|Pacifico|Press+Start+2P|Roboto+Condensed|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mainindex.css">
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106665866-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106665866-1"></script>
        <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)};
@@ -36,23 +36,32 @@
     <table>
       <tr id ="mainstuff">
         <ul id="bodyswag">
+          
            <li class="mainli">
-              <h3>Current projects</h3>
-             <a class="normcenter">Updated August 2018</a>
-              <p class="pcenter">Not all of these projects are worked on consistently, but I try to spend at least an hour
-             a week working on each project. </p>
-           </li>
-           <li class="mainli">
-             <h3>N/A</h3>
-             <p>There are no current projects worth mentioning here.</p>
-           </li>
+              <h2>About</h2>
+              <p>Discover more about Harrison Hall.</p>
+              <a class="norm" href="about.html">Check out my about page!</a>
+          </li>
+          <li class="mainli">
+             <h2>Current Projects</h2>
+             <p>Here are some of the public projects I stay active with now!</p>
+             <a class="norm" href="current.html">Check out my current projects!</a>
+          </li>
+          <li class="mainli">
+             <h2>Past Projects</h2>
+             <p>Everyone grows from their past. This is where I began.</p>
+             <a class="norm" href="projects.html">Check out my past projects!</a>
+          </li>
+          <li class="mainli">
+             <h2>Blog</h2>
+             <p>Any blog is inactive as of now.</p>
+          </li>
         </ul>
-
       </tr>
     </table>
 
   </body>
   <footer>
-    <h6>Harrison Hall 2016-2019</h6>
+    <h6>Harrison Christian Hall 2016-2019</h6>
   </footer>
 </html>

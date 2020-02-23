@@ -1,0 +1,35 @@
+
+
+
+
+body {
+    background-color: #333333;
+    color: #ffffff;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+}
+
+.card-body {
+    background-color: #707070;
+}
+
+.card {
+    background-color: #474747;
+    background-color: #707070;
+}
+
+/* Remove? */
+.card-img-top {
+    /*border-radius: 50%;
+    height: 50%;
+    width: auto;*/
+}
+
+.jumbotron {
+    background-color: #474747;
+}
+
+.text-muted {
+    color: #cccccc;
+}

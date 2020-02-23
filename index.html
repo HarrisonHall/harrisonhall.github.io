@@ -1,67 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Harrison Hall</title>
     <link rel="icon" href="blog_spr.png">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Limelight|Lobster|Monoton|Neuton|Orbitron|Pacifico|Press+Start+2P|Roboto+Condensed|Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="mainindex.css">
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106665866-1"></script>
-       <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)};
-          gtag('js', new Date());
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-106665866-1');
+    </script>
 
-          gtag('config', 'UA-106665866-1');
-      </script>
-
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="main.css">
+    
   </head>
   <body>
 
-    <div class="header">
-      <h1><a class="harrison" href="index.html">Harrison Hall</a></h1>
-    </div>
-
-    <table style="width:60%">
-      <tr>
-        <th><button class="button button1" onclick="location.href='current.html';">Current</button></th>
-        <th><button class="button button1" onclick="location.href='projects.html';">Projects</button></th>
-        <th><button class="button button1" onclick="location.href='web.html';">Web</button></th>
-        <th><button class="button button1" onclick="location.href='about.html';">About</button></th>
-      </tr>
-    </table>
-
-	<a class="spacebar"></a>
-
-    <table>
-      <tr id ="mainstuff">
-        <ul id="bodyswag">
-          
-           <li class="mainli">
-              <h2>About</h2>
-              <p>Discover more about Harrison Hall.</p>
-              <a class="norm" href="about.html">Check out my about page!</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Harrison Hall</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="mainli">
-             <h2>Current Projects</h2>
-             <p>Here are some of the public projects I stay active with now!</p>
-             <a class="norm" href="current.html">Check out my current projects!</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
-          <li class="mainli">
-             <h2>Past Projects</h2>
-             <p>Everyone grows from their past. This is where I began.</p>
-             <a class="norm" href="projects.html">Check out my past projects!</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Résumé</a>
           </li>
-          <li class="mainli">
-             <h2>Blog</h2>
-             <p>Any blog is inactive as of now.</p>
+          <li class="nav-item">
+            <a class="nav-link" href="#personal">Personal</a>
           </li>
         </ul>
-      </tr>
-    </table>
+      </div>
+    </nav>
 
+
+    <!-- Construction -->
+    <div class="d-flex justify-content-center pt-5" id="about">
+      <div class="alert alert-primary" role="alert" style="width:75%">
+        Note: This information here is tentative
+        as the page is under construction.
+      </div>
+    </div>
+    
+    <!-- About -->
+    <div class="d-flex justify-content-center pt-5" id="about">
+      <div class="card mb-3" style="width:75%">
+        <div class="row no-gutters">
+          <div class="col-md-2">
+            <img src="images/me.jpg" class="card-img" alt="Me!">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">About</h5>
+              <p class="card-text">
+                I am a junior Computer Science and Physics student Clemson University. Class of 2021! Outside of class I spend most of my time doing backend scripting and energy analytics for the Clemson Energy Visualization and Analytics Center (CEVAC) and buildings rockets with Clemson University Rocket Engineering (CURE).
+              </p>
+              <a href="#" class="btn btn-primary">Email</a>
+              <a href="https://www.github.com/harrisonhall" class="btn btn-primary">Github</a>
+              <a href="#" class="btn btn-primary">Gitlab</a>
+              <a href="#" class="btn btn-primary">Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Projects -->
+    <div class="jumbotron mt-5 mb-0 pb-0" id="projects">
+      <h1 class="display-4">Projects</h1>
+      <p class="lead">
+        Various out-of-class projects and activities.
+      </p>
+      <hr class="my-4">
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/avionics.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Avionics Bay</h5>
+            <p class="card-text">
+              The 2019-2020 year brought on redesigning CURE's
+                avionics bay to make it more reusable, modular,
+              and really easier so more students can work on it.
+              I've been the head of this project. 
+            </p>
+            <a href="https://github.com/curocketengineering/avionics_main" class="btn btn-primary">Github</a>
+          </div>
+          <div class="card-footer text-center">2019-2020</div>
+        </div>
+        <div class="card">
+          <img src="https://raw.githubusercontent.com/HarrisonHall/cli_rpg/master/media/image.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">CLI RPG</h5>
+            <p class="card-text">
+              Every nerd wants to design a custom command-line
+              RPG.
+            </p>
+            <a href="https://github.com/HarrisonHall/cli_rpg" class="btn btn-primary">Github</a>
+          </div>
+          <div class="card-footer text-center">Jan 2020</div>
+        </div>
+        <div class="card">
+          <img src="images/eco.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Ecolocation</h5>
+            <p class="card-text">
+              My team at HackDuke's "Hack for Good" hackathon
+              decided to go the environmental route and created
+              a geo-locational app for joining
+              environmentally-friendly activities with the reward
+              of a Pokemon Go-styled bat. We won best domain name.
+            </p>
+            <a href="https://github.com/HarrisonHall/ecolocation" class="btn btn-primary">Github</a>
+          </div>
+          <div class="card-footer text-center">Nov 2019</div>
+        </div>
+      </div>
+      <div class="card-deck pt-4">
+        <div class="card">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rnHD-cO5L8k" allowfullscreen></iframe>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Other Games</h5>
+              <p class="card-text">
+                I've worked with friends on a few video game
+                projects in the past year. I programmed them in
+                GameMaker Studio, GameMaker Studio 2, and Godot.
+              </p>
+              <a href="https://github.com/HarrisonHall/ballgame" class="btn btn-primary">BallGame Github</a>
+              <a href="https://github.com/HarrisonHall/tropical_tilt" class="btn btn-primary">Tropical Tilt Github</a>
+              <a href="https://play.google.com/store/apps/details?id=com.HockoTech.duo_tilt" class="btn btn-primary">Tropical Tilt Google Play</a>
+            </div>
+            <div class="card-footer text-center">2018-2019</div>
+        </div>
+        <div class="card">
+          <img src="https://github.com/HarrisonHall/electrss/blob/master/example.png?raw=true" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">ElectRSS</h5>
+            <p class="card-text">
+              This javascript app was written to be used
+              in electron. The electrss app will parse RSS
+                2.0 and Atom feeds. Colors and style can
+              modified with the config.js and main.css files.
+            </p>
+            <a href="https://github.com/HarrisonHall/electrss" class="btn btn-primary">Github</a>
+          </div>
+          <div class="card-footer text-center">2018</div>
+        </div>
+        <div class="card">
+          <img src="images/clemsonseekers.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Clemson Seekers</h5>
+            <p class="card-text">
+              After participating in the Clemson AWS Hackathon,
+              my group has decided to continue our project
+              "Clemson Seekers." The link can be found below.
+              More details will follow upon its completion.
+              It utilizes Amazon S3, API Gateway, Lambda, and
+              Rekognition.
+            </p>
+          </div>
+          <div class="card-footer text-center">2018</div>
+        </div>
+      </div>
+      <div class="card-deck pt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">HackBox</h5>
+            <p class="card-text">
+                At CUHackit 2020, my team and I made a hackbox
+                games clone. I was responsible for the backend
+                game logic and helped debug the flask server.
+            </p>
+            <a href="https://github.com/bmeares/CUHackit2020" class="btn btn-primary">Github</a>
+          </div>
+          <div class="card-footer text-center">Feb 2020</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Resume -->
+    <div class="jumbotron mt-0 pt-5" id="resume">
+      <h1 class="display-4">Résumé</h1>
+      <p class="lead">
+        My professional résumé
+      </p>
+      <hr class="my-4">
+      <div class="mx-auto">
+        <object data="resume.pdf" type="application/pdf">
+	  <p>
+            <a href="resume.pdf">
+              Alternative link to my Resume as a PDF.
+            </a>
+          </p>
+        </object>
+      </div>
+    </div>
+    
+    <!-- Personal -->
+    <div class="d-flex justify-content-center pt-5" id="personal">
+      <div class="card mb-3" style="width:75%">
+        <div class="row no-gutters">
+          <div class="col-md-2">
+            <img src="images/me.jpg" class="card-img" alt="Me!">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Personal</h5>
+              <p class="card-text">
+                I'm not sure if/what this will be.
+              </p>
+              <a href="#" class="btn btn-primary">Email</a>
+              <a href="https://www.github.com/harrisonhall" class="btn btn-primary">Github</a>
+              <a href="#" class="btn btn-primary">Gitlab</a>
+              <a href="#" class="btn btn-primary">Twitter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    
   </body>
-  <footer>
-    <h6>Harrison Christian Hall 2016-2019</h6>
+  <footer class="page-footer font-small blue pt-5">
+    <div class="d-flex justify-content-center">
+      <h6>Harrison Christian Hall 2016-2020</h6>
+    </div>
   </footer>
 </html>
