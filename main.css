@@ -20,11 +20,8 @@ footer {
     background-color: #707070;
 }
 
-/* Remove? */
-.card-img-top {
-    /*border-radius: 50%;
-    height: 50%;
-    width: auto;*/
+.card-body.darker, .card.darker {
+    background-color: #333333;
 }
 
 .jumbotron {
