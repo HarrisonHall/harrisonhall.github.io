@@ -53,7 +53,7 @@ footer {
     font-size: 1em;
 }
 
-.nav-link, .navbar-brand {
+.navbar-expand-lg, .nav-link, .navbar-brand {
     background-color: #444862;
     color: #ffffff;
 }
