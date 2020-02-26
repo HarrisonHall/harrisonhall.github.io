@@ -1,5 +1,9 @@
 /* CSS for harrisonchristianhall.com */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #333333;
     color: #ffffff;
