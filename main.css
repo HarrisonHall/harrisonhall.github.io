@@ -84,3 +84,6 @@ footer {
     border-color: #45747e;
 }
 
+#image-card {
+    background-size: cover;
+}
