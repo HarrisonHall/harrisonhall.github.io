@@ -5,31 +5,31 @@ html {
 }
 
 body {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #4c566a;
+    color: #d8dee9;
     justify-content: center;
     -ms-flex-pack: center;
     -webkit-box-pack: center;
 }
 
 footer {
-    background-color: #666666;
+    background-color: #222222;
 }
 
 .card-body {
-    background-color: #707070;
-}
-
-.card {
-    background-color: #707070;
-}
-
-.card-body.darker, .card.darker {
     background-color: #333333;
 }
 
+.card {
+    background-color: #333333;
+}
+
+.card-body.darker, .card.darker {
+    background-color: #4c566a;
+}
+
 .jumbotron {
-    background-color: #474747;
+    background-color: #434c5e;
     border-radius: 0%;
 }
 
@@ -38,15 +38,15 @@ footer {
 }
 
 #work, #resume {
-    background-color: #5b5b5b;
+    background-color: #3b4252;
 }
 
 .list-group-item {
-    background-color: #707070;
+    background-color: #333333;
 }
 
 .card-header {
-    background-color: #666666;
+    background-color: #222222;
     font-size: 1.5em;
 }
 
@@ -55,8 +55,8 @@ footer {
 }
 
 .navbar-expand-lg, .nav-link, .navbar-brand {
-    background-color: #444862;
-    color: #ffffff;
+    background-color: #2e3440;
+    color: #d8dee9;
 }
 .nav-link:hover, .navbar-brand:hover{
     color: #cccccc;
@@ -70,18 +70,18 @@ footer {
 
 
 .btn-primary, .badge-primary {
-    background-color: #61a3b1;
-    border-color: #61a3b1;
+    background-color: #81a1c1;
+    border-color: #81a1c1;
 }
 
 .badge-danger {
-    background-color: #b23b3b;
-    border-color: #b23b3b;
+    background-color: #bf616a;
+    border-color: #bf616a;
 }
 
 .btn-primary:hover {
-    background-color: #45747e;
-    border-color: #45747e;
+    background-color: #5e81ac;
+    border-color: #5e81ac;
 }
 
 #image-card {
